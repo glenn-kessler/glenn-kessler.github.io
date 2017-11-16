@@ -4,7 +4,7 @@
 	<head>
 		<meta charset=utf-8>
 
-		<title>Holzhammer statt nmap</title>
+		<title>pragmatischer Ansatz um eine IP zhu ermitteln</title>
 		<link
 		rel="stylesheet"
 		type="text/css"
@@ -15,29 +15,19 @@
 		<div id=content>
 			<div id=header>
 				<article>
-					<H1>Holzhammer statt nmap</H1>
+					<H1>pragmatischer Ansatz um eine IP zhu ermitteln</H1>
 					<p>
-						Man kennt das ja...
-						<br>
 						Das neue Gerät ist aufgesetzt, die Netzwerkverbindung hergestellt,
-						aber unter welcher Adresse ist das Ding denn nun erreichbar?
-						Gerade wenn man unter Windows arbeitet vermisst man oft Werkzeuge,
-						die andere Plattformen von Haus aus mitbringen.
+						aber aus Gründen sind nützliche Werkzeuge um die IP zu ermitteln nicht verfügbar.
+						Befindet man sich in einem sehr kleinen Netz
+						reicht es 254 Ping's abzusetzen.
+						Das ist nicht hübsch oder elegant, aber es führt zum Ziel.
 						<br>
-						Eine VMware aufsetzen,
-						oder von einem Stick booten waren mir zu umständlich.
-						Das kurzerhand installierte nmap wollte ohne gutes zureden seine Arbeit
-						gar nicht erst aufnehmen und der lokale Router verwehrte mir den Zugang.
-						Einige gut gemeinte Ratschläge in verschiedenen Foren später,
-						erinnerte ich mich an die überschauliche Größe von IPv4-Netzen
-						und beschloss das Ganze pragmatisch zu lösen.
-						<br>
-						Hier gibt's den Holzhammer in seiner gesammten Schönheit zu bewundern.
 						Die Adresse ist möglicherweise noch abzuändern.
-						Nach einem schwungvollen copy-paste in die Kommandozeile von Windows,
+						Nach einem copy-paste in die Kommandozeile von Windows,
 						lässt sich die Ausgabe im Editor nach <b>(0% Verlust</b> durchsuchen
 						und schon hat man seine Verdächtigen.
-						Immer Vorausgesetzt das gesuchte Gerät hat sich eine IP per DHCP verabreichen lassen.
+						Immer Vorausgesetzt das gesuchte Gerät hat per DHCP eine IP erhalten.
 					</p>	
 				</article>
 			</div>
