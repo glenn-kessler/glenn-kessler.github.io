@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset=utf-8>
+
+<title>task ticker</title>
+<link
+rel="stylesheet"
+type="text/css"
+href="tticker.css">
+
+<script type="text/javascript" src="tticker.js"></script>
+
+<div id=content>
+<div id=main>
+  <h1>
+    <a href="">Task Ticker</a>
+  </h1>
+  <h2>
+    <a href="">von Glenn Keßler</a>
+  </h2>
+
+  <div id=board>
+      <label>Name :</label>
+    <input type=text placeholder=Name id=text onkeypress="window.tticker.pushOrPopTask(event,this.value)">
+      <input type=button value='+' onclick="(function pushTask() { window.tticker.pushTask() } ) ()">
+      <input type=button value='-' onclick="(function popTask() { window.tticker.popTask() } ) ()">
+  </div>
+</div>
+
+<div id=debug>
+</div>
+</div>
