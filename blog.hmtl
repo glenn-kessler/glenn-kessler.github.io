@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang=de>
+	<head>
+		<meta charset=utf-8>
+
+		<title>Windows 10: show MAC of paired Bluetoothdevice</title>
+		<link
+		rel="stylesheet"
+		type="text/css"
+		href="site.css">
+	</head>
+
+	<body>
+		<div id=content>
+			<div id=header>
+				<article>
+					<H1>hi there, it's a blog</H1>
+					<p>
+            In here goes anything I'm too lazy to categorize. Some thoughts, some (probably bad) poetry, hopefully only a few rants, and other stuff I couldn't think of when I was writing this line.
+					</p>	
+				</article>
+			</div>
+			<div id=main>
+        <p> </p>
+        <p> 2018-11-26 Could it be that KI, AI, machine learning, and whatever solving problems using neuronal networks is or will be called, could it just be, that it's simply a lazy way of getting the same results if one would just sit down and use some old fashioned math? Just thinking. </p>
+			</div>
+			<div id=footer>
+				<p><a href=impressum.html>Impressum</a> <a href="./links.html">Linkliste</a> </p> 
+			</div>
+		</div>
+	</body>
+</html>
